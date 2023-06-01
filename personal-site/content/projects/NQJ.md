@@ -1,0 +1,23 @@
++++
+title = "Neural Question Generation with GPT-J"
+description = "Neural Question Generation (QG) systems aim to automate the process of question construction by generating novel questions given a particular context, thus reducing time and costs of question generation for educators and test developers. We propose Question Generation using GPT-J in a few-shot setting. Generating questions in this manner reduces time and resource cost required to construct datasets and fine-tune increasingly complex models like GPT-J, thereby increasing usage for educational purposes such as adaptive education. We compare our results against a GPT-J model fine-tuned on the task. "
+date = "2022-04-23"
+aliases = ["about-us","about-hugo","contact"]
+author = "Hasan Khan, Sukrit Rao, Rohith Bollineni"
++++
+
+## Abstract
+
+Neural Question Generation (QG) systems aim to automate the process of question construction by generating novel questions given a particular context, thus reducing time and costs of question generation for educators and test developers. We propose Question Generation using GPT-J in a few-shot setting. Generating questions in this manner reduces time and resource cost required to construct datasets and fine-tune increasingly complex models like GPT-J, thereby increasing usage for educational purposes such as adaptive education. We compare our results against a GPT-J model fine-tuned on the task. See the full paper [here](/files/Neural_Question_Generation_with_GPT_J.pdf).
+
+## Introduction
+
+Asking relevant questions of varying difficulty forms an essential part of assessing a student’s grasp of concepts. Instructors are required to spend considerable amounts of time constructing exam and assignment questions that assess students on material taught in the classroom. In this process of question creation, instructors must make sure that the questions cannot all be of similar difficulty and must range from easy to difficult to ensure optimum learning outcomes. Additionally, questions often need to be replaced continually as content is revised to reflect the latest updates in the domain or because the questions become publicly available. Another aspect that affects learning outcomes is the student's aptitude and pre-existing knowledge. In classroom settings, learning takes place in groups in which some students would be stronger in the concepts the material tests while others would not and would require additional practice and/or instruction. As a result, applying universal pedagogy in such settings is not ideal  (Lieu et al., 2020). Adaptive education systems have great potential to improve learning outcomes by increasing accessibility (Srivastava and Goodman, 2021). 
+
+Neural Question Generation (QG)  (Pan et al., 2019) systems aim to automate the process of question construction by generating novel questions given a particular context, thus reducing time and costs of question generation for educators and test developers. Advanced QG systems with configurable parameters could help offer students custom material based on their individual ability, and act as a foundation for adaptive testing and learning. 
+
+Recent work in QG has focused on generating quiz-style questions  (Lelkes et al., 2021), with particular focus on generating questions of selected difficulty levels (Gao et al., 2018). However, these techniques have relied on fine-tuning a language model on a task-specific dataset such as SQuAD or RACE  (Lai et al., 2017). As a result, these models are limited in their domain of use. Moreover, constructing such datasets that contain thousands of examples, specific to that task, is time-consuming and costly, and thus not a viable means for widespread adoption. In this paper, we propose using GPT-J in a few-shot setting to produce questions that are fluent in linguistic construction, relevant to the input context, and appropriately difficult as desired. We compare our work against a GPT-J model fine-tuned on the task.
+
+In the context of reading comprehension, we look at two types of QG variants. In answer-focused QG, a reference passage and an answer are passed as inputs into the system, resulting in the generation of questions relevant to the input answer. In general QG, only a context passage is passed as input, resulting in the generation of unmapped questions relevant to the context.
+
+See the full paper [here](/files/Neural_Question_Generation_with_GPT_J.pdf).

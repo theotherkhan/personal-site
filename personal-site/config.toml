@@ -1,0 +1,39 @@
+baseURL = 'https://theotherkhan.github.io/'
+languageCode = 'en-us'
+title = 'Hasan Khan'
+theme = 'archie'
+
+copyright = "© Hasan Khan"
+summaryLength = 1000
+
+[[params.social]]
+name = "GitHub"
+icon = "github"
+url = "https://github.com/theotherkhan"
+
+[[params.social]]
+name = "LinkedIn"
+icon = "linkedin"
+url = "https://www.linkedin.com/in/hk4cd/"
+
+# Main menu Items
+
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "Resume"
+url = "/files/summerresume2023ai.pdf"
+weight = 2
+
+[[menu.main]]
+name = "Projects"
+url = "/projects"
+weight = 3
+
+[[menu.main]]
+name = "Git"
+url = "https://github.com/theotherkhan"
+weight = 4

@@ -1,0 +1,4 @@
+[submodule "personal-site/public"]
+	path = personal-site/public
+	url = https://github.com/theotherkhan/theotherkhan.github.io.git
+	branch = main
