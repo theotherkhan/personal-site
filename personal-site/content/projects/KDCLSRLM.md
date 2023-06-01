@@ -54,8 +54,7 @@ to no performance gains for certain tasks, such
 as image recognition on ImageNet (Zagoruyko
 and Komodakis, 2016). Cho and Hariharan note
 that empirical results establishing the generality
-of KD efficacy for various tasks are nonexistent
-(Cho and Hariharan, 2019). They examine the
+of KD efficacy for various tasks are nonexistent. They examine the
 reasons behind these failures, noting that large
 differences in student teacher model capacities
 may limit the student model’s ability to minimize
